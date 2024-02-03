@@ -1,0 +1,127 @@
+header{
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+header h1{
+    font-style: bold;
+}
+
+footer{
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+div.product-list {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+    }
+
+div.product-item {
+    border: 1px solid #00cc66;
+    margin: 10px 0;
+    padding: 10px;
+    }
+
+div.product-image img {
+    max-width: 150px;
+    }
+
+div.product-name {
+    margin: 15px 0;
+    text-align: center;
+    }
+
+.standard-button {
+        display: inline-block; 
+        border-radius: 4px; 
+        background-color: #00cc66; 
+        border: 1px solid #009900;
+        color: #fff;
+        text-align: center; 
+        font-size: 15px; 
+        padding: 8px 25px; 
+        cursor: pointer; 
+        margin: 5px;
+    }
+
+.standard-button:hover {
+        background-color: #009900; 
+    }
+
+.nom{
+    text-align: center;
+    font-style: bold;
+    font-size: 2em;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+}
+
+.article p{
+    text-align: center;
+} 
+
+.article h1{
+    font-style: bold;
+} 
+
+.details{
+    align-items: center;
+}
+
+.form{
+    text-align: center;
+}
+
+
+
+.panier{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.panier .item{
+    border-bottom: 2px  solid greenyellow;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.panier img{
+    height: 100px;
+}
+
+div.cout-total{
+   text-align: center; 
+   font-style: bold;
+}
+
+.panier .standard-button{
+    width: 40%;
+    margin: auto;
+}
+
+.quantite{
+    color:blueviolet;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.item-detail{
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
